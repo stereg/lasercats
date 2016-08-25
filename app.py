@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello World!!"
+    return "<html><body><img src=\"lasercats.gif\"></body></html>"
 
 
 if __name__ == "__main__":
